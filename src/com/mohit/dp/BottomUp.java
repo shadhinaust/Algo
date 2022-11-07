@@ -20,4 +20,9 @@ public class BottomUp implements KnapsackSolution {
 
         return matrix[row - 1][col - 1];
     }
+
+    @Override
+    public int getOptimalValueByIterative(int[] values, int[] weights, int capacity) {
+        return 0;
+    }
 }
